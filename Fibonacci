@@ -1,0 +1,15 @@
+class Fibonacci{  
+public static void main(String args[])  
+{    
+ int prevnum1=0,prevnum2=1,nextnum3,i,count=10;      
+    
+ for(i=1;i<count;i++)    
+ {    
+  nextnum3=prevnum1+prevnum2;    
+  System.out.println(" "+nextnum3);    
+  prevnum1 = prevnum2;    
+  prevnum2 = nextnum3;    
+ }    
+  
+}
+}
